@@ -20,5 +20,9 @@ export const GlobalCss = createGlobalStyle`
 
   body {
     background-color: black;
+
+    h2 {
+      margin-bottom: 16px;
+    }
   }
 `

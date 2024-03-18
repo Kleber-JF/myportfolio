@@ -4,10 +4,10 @@ import { ProfileAbout, ProfileText } from './styles'
 export const About = () => {
   return (
     <div className="container">
+      <h2>About Me</h2>
       <ProfileAbout>
         <img src={profileImage} alt="my photo" />
         <ProfileText>
-          <h4>About Me:</h4>
           <p>
             Estou em busca de reiniciar minha carreira profissional, recomecei
             meus estudos recentemente na área da programação e posso dizer que

@@ -3,6 +3,7 @@ import { Card, CardsContainer } from './styles'
 export const SkillCards = () => {
   return (
     <div className="container">
+      <h2>Skills</h2>
       <CardsContainer>
         <Card>
           <h3>Front-End:</h3>
