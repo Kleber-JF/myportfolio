@@ -7,10 +7,17 @@ export const Header = () => {
       <NavList>
         <ul>
           <li>
-            <a href="#">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/kleber-fukushima/"
+              target="blank"
+            >
+              LinkedIn
+            </a>
           </li>
           <li>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/Kleber-JF" target="blank">
+              GitHub
+            </a>
           </li>
         </ul>
       </NavList>
