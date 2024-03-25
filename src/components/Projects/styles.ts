@@ -61,6 +61,7 @@ export const ModalContent = styled.div`
   align-items: flex-end;
   border-radius: 8px;
   border: 2px solid white;
+  max-width: 500px;
 
   @media (max-width: 767px) {
     width: 90%;
@@ -147,12 +148,14 @@ export const ModalList = styled.div`
     margin-top: 8px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   li {
     white-space: nowrap;
     padding: 4px 8px;
     margin-right: 4px;
+    margin-bottom: 8px;
     line-wrap: nowrap;
     border: 2px solid white;
     border-radius: 24px;

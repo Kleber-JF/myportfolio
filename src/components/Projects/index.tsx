@@ -31,7 +31,7 @@ const projectsList: Project[] = [
   {
     title: 'Projeto Twitter Genérico',
     image: twitterImg,
-    techs: ['React', 'HTML', 'Styled-Components', 'Yup', 'Formik', 'API'],
+    techs: ['Django', 'Python', 'Booststrap', 'factory-boy', 'Pytest', 'CI/CD'],
     description:
       'Projeto de página de pedidos de comida online, listando restaurantes e seus respectivos menu através de requisição de API.',
     links: [
